@@ -1,5 +1,10 @@
 import streamlit as st
 st.title("Survey no theme")
 st.write("I don't really know what this survey will be soooooo")
-st.text_input("Which planet has the most moons?)
+planet=st.text_input("Which planet has the most moons?)
+  if st.button "check":
+     if planet=saturn or planet=Saturn:
+        st.success("That is correct :D")
+     else:
+        st.error("That would be incorect")
               
